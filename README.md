@@ -11,9 +11,9 @@ This project aims to develop an intelligent, automated smart parking system usin
 - **User Applications:**
   - **Android Application:** Displays slot availability, allows reservations, and provides GPS tracking.
  
-![Parking System Proposed Architecture](images/Architecture.png)
 
 ## System Architecture
+![Parking System Proposed Architecture](images/Architecture.png)
 1. **End Nodes:** Sensors (IR & Magnetic) detect vacant parking slots.
 2. **Processing Node:** Raspberry Pi processes sensor data and transmits it.
 3. **Cloud Database:** Firebase stores real-time slot data.
@@ -45,15 +45,23 @@ This project aims to develop an intelligent, automated smart parking system usin
    ```bash
    python sensor_script.py
    ```
+   
+![Parking Slot monitoring on Firebase Cloud](images/FirebaseCloud.png)
+
+   *Obstacle here is Car*
 3. Start the Android application (install APK on mobile device).
 
 
 ## Mobile App Features
+![Parking Slot Booking Application- Registration and Login Pages](images/AppRegistrationandLogin.png)
+![Parking Slot Booking Application- Slot availability wrt Firebase Cloud Slot data](images/SlotsDisplayonApp.png)
 - Slot availability display
 - GPS tracking to navigate to booked slot
 - Secure booking with OTP-based slot access
 
 ## Billing System
+![Parking Slot Booking Application- Billing and GPS Tracking](images/BillingAndGPS.png)
+
 - Base charge: Rs. 25/hour
 - Late arrival fee: Rs. 50/hour
 - Total Amount Calculation:
