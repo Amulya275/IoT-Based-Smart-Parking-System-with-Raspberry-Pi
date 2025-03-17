@@ -10,6 +10,8 @@ This project aims to develop an intelligent, automated smart parking system usin
 - **Cloud Storage:** Firebase Realtime Database for storing parking slot availability.
 - **User Applications:**
   - **Android Application:** Displays slot availability, allows reservations, and provides GPS tracking.
+ 
+![Parking System Proposed Architecture](images/Architecture.png)
 
 ## System Architecture
 1. **End Nodes:** Sensors (IR & Magnetic) detect vacant parking slots.
