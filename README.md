@@ -1,7 +1,7 @@
 # IoT-Based Parking Slot Management System using Raspberry Pi 3 and Firebase Cloud
 
 ## Project Overview
-This project aims to develop an intelligent, automated smart parking system using IoT technologies. The system optimizes parking space usage, reduces traffic congestion, and minimizes pollution and vehicle vandalism risks.
+With the rapid increase in vehicle ownership, urban areas are facing significant challenges in managing parking spaces efficiently. Traffic congestion, pollution, and inefficient parking allocation have become persistent issues. This project introduces an __IoT-based Smart Parking Slot Management System__ designed to optimize parking utilization, reduce congestion, and enhance user experience by integrating sensor-based automation, real-time data processing, and cloud-based accessibility.
 
 ## Features & Technologies Used
 - **IoT Sensors:** Infrared (IR) and Magnetic Sensors for real-time parking slot detection.
