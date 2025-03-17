@@ -14,12 +14,13 @@ This project aims to develop an intelligent, automated smart parking system usin
 
 ## System Architecture
 ![IoT-Based Parking Slot Management System using Raspberry Pi 3 and Firebase Cloud- Proposed Architecture](images/Architecture.png)
+
 *IoT-Based Parking Slot Management System using Raspberry Pi 3 and Firebase Cloud- Proposed Architecture*
 
 ![IoT-Based Parking Slot Management System using Raspberry Pi 3 and Firebase Cloud- Working Model](images/WorkingModel.png)
+
 *IoT-Based Parking Slot Management System using Raspberry Pi 3 and Firebase Cloud- Working Model*
 
-*Parking System Proposed Architecture*
 1. **End Nodes:** Sensors (IR & Magnetic) detect vacant parking slots.
 2. **Processing Node:** Raspberry Pi processes sensor data and transmits it.
 3. **Cloud Database:** Firebase stores real-time slot data.
@@ -53,6 +54,7 @@ This project aims to develop an intelligent, automated smart parking system usin
    ```
    
 ![Parking Slot monitoring on Firebase Cloud](images/FirebaseCloud.png)
+
 *Parking Slot monitoring on Firebase Cloud- Obstacle here is Car*
    
 3. Start the Android application (install APK on mobile device).
@@ -60,16 +62,20 @@ This project aims to develop an intelligent, automated smart parking system usin
 
 ## Mobile App Features
 ![Parking Slot Booking Application- Registration and Login Pages](images/AppRegistrationandLogin.png)
+
 *Parking Slot Booking Application- Registration and Login Pages*
 
 ![Parking Slot Booking Application- Slot availability wrt Firebase Cloud Slot data](images/SlotsDisplayonApp.png)
+
 *Parking Slot Booking Application- Slot availability wrt Firebase Cloud Slot data*
+
 - Slot availability display
 - GPS tracking to navigate to booked slot
 - Secure booking with OTP-based slot access
 
 ## Billing System
 ![Parking Slot Booking Application- Billing and GPS Tracking](images/BillingAndGPS.png)
+
 *Parking Slot Booking Application- Billing and GPS Tracking*
 
 - Base charge: Rs. 25/hour
